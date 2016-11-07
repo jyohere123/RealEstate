@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+def pods
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'SDWebImage'
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+end
+
+target 'RealEstate' do
+    pods
+end
+
+target 'RealEstateTests' do
+    pods
+end

@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		865D79601DCDBF4F007C47C2 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D795F1DCDBF4F007C47C2 /* FavoritesManager.swift */; };
+		865D79611DCDBF4F007C47C2 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D795F1DCDBF4F007C47C2 /* FavoritesManager.swift */; };
+		865D79641DCDE2E2007C47C2 /* RealEstateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D79631DCDE2E2007C47C2 /* RealEstateService.swift */; };
+		865D79651DCDE2E2007C47C2 /* RealEstateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D79631DCDE2E2007C47C2 /* RealEstateService.swift */; };
+		865D79671DCDF742007C47C2 /* RealEstateViewModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D79661DCDF742007C47C2 /* RealEstateViewModelHelper.swift */; };
+		865D79681DCDF742007C47C2 /* RealEstateViewModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D79661DCDF742007C47C2 /* RealEstateViewModelHelper.swift */; };
+		868365401DC83DBD008BB5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683653F1DC83DBD008BB5D8 /* AppDelegate.swift */; };
+		868365451DC83DBD008BB5D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868365431DC83DBD008BB5D8 /* Main.storyboard */; };
+		8683654A1DC83DBD008BB5D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868365481DC83DBD008BB5D8 /* LaunchScreen.storyboard */; };
+		868365681DC86471008BB5D8 /* RealEstateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868365671DC86471008BB5D8 /* RealEstateTableViewController.swift */; };
+		868365691DC86471008BB5D8 /* RealEstateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868365671DC86471008BB5D8 /* RealEstateTableViewController.swift */; };
+		8683656B1DC86535008BB5D8 /* RealEstateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683656A1DC86535008BB5D8 /* RealEstateModel.swift */; };
+		8683656C1DC86535008BB5D8 /* RealEstateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683656A1DC86535008BB5D8 /* RealEstateModel.swift */; };
+		8683656F1DC880A5008BB5D8 /* RealEstateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683656D1DC880A5008BB5D8 /* RealEstateCell.swift */; };
+		868365701DC880A5008BB5D8 /* RealEstateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683656D1DC880A5008BB5D8 /* RealEstateCell.swift */; };
+		868365711DC880A5008BB5D8 /* RealEstateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8683656E1DC880A5008BB5D8 /* RealEstateCell.xib */; };
+		868365721DC880A5008BB5D8 /* RealEstateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8683656E1DC880A5008BB5D8 /* RealEstateCell.xib */; };
+		868365751DC8D24C008BB5D8 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868365741DC8D24C008BB5D8 /* Media.xcassets */; };
+		868365771DC8FD1D008BB5D8 /* RealEstateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868365761DC8FD1D008BB5D8 /* RealEstateViewModel.swift */; };
+		868365781DC8FD1D008BB5D8 /* RealEstateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868365761DC8FD1D008BB5D8 /* RealEstateViewModel.swift */; };
+		8683657C1DC90C9A008BB5D8 /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683657B1DC90C9A008BB5D8 /* ResponseParser.swift */; };
+		8683657D1DC90C9A008BB5D8 /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683657B1DC90C9A008BB5D8 /* ResponseParser.swift */; };
+		86B1E8221DCD7776000AB79F /* RealEstateMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1E8211DCD7776000AB79F /* RealEstateMapViewController.swift */; };
+		86B1E8231DCD7776000AB79F /* RealEstateMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1E8211DCD7776000AB79F /* RealEstateMapViewController.swift */; };
+		86B1E8251DCD7A08000AB79F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B1E8241DCD7A08000AB79F /* MapKit.framework */; };
+		86B84E6C1DCED8D900B05445 /* RealEstateViewModelHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B84E6B1DCED8D900B05445 /* RealEstateViewModelHelperTest.swift */; };
+		86B84E6F1DD096FB00B05445 /* FavoriteManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B84E6E1DD096FA00B05445 /* FavoriteManagerTest.swift */; };
+		8F5F0AD16ED91396AF0AE9D9 /* Pods_RealEstate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F1C2E0DFCFD15739F7A34F /* Pods_RealEstate.framework */; };
+		B1EE6B03064BBB12195FE128 /* Pods_RealEstateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A97379E35DF19753A3B827 /* Pods_RealEstateTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		868365511DC83DBD008BB5D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868365341DC83DBC008BB5D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8683653B1DC83DBD008BB5D8;
+			remoteInfo = RealEstate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A97379E35DF19753A3B827 /* Pods_RealEstateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEstateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A7F6704589D9CF14C652AB /* Pods-RealEstate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealEstate/Pods-RealEstate.debug.xcconfig"; sourceTree = "<group>"; };
+		18EC379B5B2083BDD249A7C6 /* Pods-RealEstate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstate.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealEstate/Pods-RealEstate.release.xcconfig"; sourceTree = "<group>"; };
+		4A01173ED0A5BEBAE178E5AA /* Pods-RealEstateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealEstateTests/Pods-RealEstateTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B58EB8B01EDFDD0393C951E /* Pods-RealEstateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealEstateTests/Pods-RealEstateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		865D795F1DCDBF4F007C47C2 /* FavoritesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		865D79631DCDE2E2007C47C2 /* RealEstateService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealEstateService.swift; sourceTree = "<group>"; };
+		865D79661DCDF742007C47C2 /* RealEstateViewModelHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealEstateViewModelHelper.swift; sourceTree = "<group>"; };
+		8683653C1DC83DBD008BB5D8 /* RealEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8683653F1DC83DBD008BB5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		868365441DC83DBD008BB5D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		868365491DC83DBD008BB5D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8683654B1DC83DBD008BB5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868365501DC83DBD008BB5D8 /* RealEstateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEstateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868365561DC83DBD008BB5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868365671DC86471008BB5D8 /* RealEstateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealEstateTableViewController.swift; sourceTree = "<group>"; };
+		8683656A1DC86535008BB5D8 /* RealEstateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealEstateModel.swift; sourceTree = "<group>"; };
+		8683656D1DC880A5008BB5D8 /* RealEstateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealEstateCell.swift; sourceTree = "<group>"; };
+		8683656E1DC880A5008BB5D8 /* RealEstateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealEstateCell.xib; sourceTree = "<group>"; };
+		868365741DC8D24C008BB5D8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		868365761DC8FD1D008BB5D8 /* RealEstateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealEstateViewModel.swift; sourceTree = "<group>"; };
+		8683657B1DC90C9A008BB5D8 /* ResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
+		86B1E8211DCD7776000AB79F /* RealEstateMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealEstateMapViewController.swift; sourceTree = "<group>"; };
+		86B1E8241DCD7A08000AB79F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		86B84E6B1DCED8D900B05445 /* RealEstateViewModelHelperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealEstateViewModelHelperTest.swift; sourceTree = "<group>"; };
+		86B84E6E1DD096FA00B05445 /* FavoriteManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteManagerTest.swift; sourceTree = "<group>"; };
+		F1F1C2E0DFCFD15739F7A34F /* Pods_RealEstate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealEstate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868365391DC83DBD008BB5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1E8251DCD7A08000AB79F /* MapKit.framework in Frameworks */,
+				8F5F0AD16ED91396AF0AE9D9 /* Pods_RealEstate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8683654D1DC83DBD008BB5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EE6B03064BBB12195FE128 /* Pods_RealEstateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369D2D7EE10331E6988F8C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86B1E8241DCD7A08000AB79F /* MapKit.framework */,
+				F1F1C2E0DFCFD15739F7A34F /* Pods_RealEstate.framework */,
+				02A97379E35DF19753A3B827 /* Pods_RealEstateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		380A7676C50A88104114C417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08A7F6704589D9CF14C652AB /* Pods-RealEstate.debug.xcconfig */,
+				18EC379B5B2083BDD249A7C6 /* Pods-RealEstate.release.xcconfig */,
+				7B58EB8B01EDFDD0393C951E /* Pods-RealEstateTests.debug.xcconfig */,
+				4A01173ED0A5BEBAE178E5AA /* Pods-RealEstateTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		865D795E1DCDBF0B007C47C2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				865D795F1DCDBF4F007C47C2 /* FavoritesManager.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		865D79621DCDE293007C47C2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				865D79631DCDE2E2007C47C2 /* RealEstateService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		868365331DC83DBC008BB5D8 = {
+			isa = PBXGroup;
+			children = (
+				8683653E1DC83DBD008BB5D8 /* RealEstate */,
+				868365531DC83DBD008BB5D8 /* RealEstateTests */,
+				8683653D1DC83DBD008BB5D8 /* Products */,
+				380A7676C50A88104114C417 /* Pods */,
+				369D2D7EE10331E6988F8C1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8683653D1DC83DBD008BB5D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8683653C1DC83DBD008BB5D8 /* RealEstate.app */,
+				868365501DC83DBD008BB5D8 /* RealEstateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8683653E1DC83DBD008BB5D8 /* RealEstate */ = {
+			isa = PBXGroup;
+			children = (
+				865D79621DCDE293007C47C2 /* Service */,
+				865D795E1DCDBF0B007C47C2 /* Utils */,
+				868365791DC90C74008BB5D8 /* Parser */,
+				8683655F1DC83DD1008BB5D8 /* Model */,
+				868365601DC83DDB008BB5D8 /* ViewModel */,
+				868365611DC83DE3008BB5D8 /* View */,
+				868365621DC83DF9008BB5D8 /* Resources */,
+				8683653F1DC83DBD008BB5D8 /* AppDelegate.swift */,
+			);
+			path = RealEstate;
+			sourceTree = "<group>";
+		};
+		868365531DC83DBD008BB5D8 /* RealEstateTests */ = {
+			isa = PBXGroup;
+			children = (
+				868365561DC83DBD008BB5D8 /* Info.plist */,
+				86B84E6B1DCED8D900B05445 /* RealEstateViewModelHelperTest.swift */,
+				86B84E6E1DD096FA00B05445 /* FavoriteManagerTest.swift */,
+			);
+			path = RealEstateTests;
+			sourceTree = "<group>";
+		};
+		8683655F1DC83DD1008BB5D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8683656A1DC86535008BB5D8 /* RealEstateModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		868365601DC83DDB008BB5D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				868365761DC8FD1D008BB5D8 /* RealEstateViewModel.swift */,
+				865D79661DCDF742007C47C2 /* RealEstateViewModelHelper.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		868365611DC83DE3008BB5D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				868365731DC8A83C008BB5D8 /* ViewController */,
+				868365661DC83E59008BB5D8 /* Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		868365621DC83DF9008BB5D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				868365651DC83E3D008BB5D8 /* Images */,
+				868365641DC83E2E008BB5D8 /* Config */,
+				868365631DC83E12008BB5D8 /* Storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		868365631DC83E12008BB5D8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				868365431DC83DBD008BB5D8 /* Main.storyboard */,
+				868365481DC83DBD008BB5D8 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		868365641DC83E2E008BB5D8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8683654B1DC83DBD008BB5D8 /* Info.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		868365651DC83E3D008BB5D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				868365741DC8D24C008BB5D8 /* Media.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		868365661DC83E59008BB5D8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8683656D1DC880A5008BB5D8 /* RealEstateCell.swift */,
+				8683656E1DC880A5008BB5D8 /* RealEstateCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		868365731DC8A83C008BB5D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				868365671DC86471008BB5D8 /* RealEstateTableViewController.swift */,
+				86B1E8211DCD7776000AB79F /* RealEstateMapViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		868365791DC90C74008BB5D8 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				8683657B1DC90C9A008BB5D8 /* ResponseParser.swift */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8683653B1DC83DBD008BB5D8 /* RealEstate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868365591DC83DBD008BB5D8 /* Build configuration list for PBXNativeTarget "RealEstate" */;
+			buildPhases = (
+				D8674BDD0D81D37BDA7A9F35 /* [CP] Check Pods Manifest.lock */,
+				868365381DC83DBD008BB5D8 /* Sources */,
+				868365391DC83DBD008BB5D8 /* Frameworks */,
+				8683653A1DC83DBD008BB5D8 /* Resources */,
+				35F8B1F5EBCE76EDD71044A6 /* [CP] Embed Pods Frameworks */,
+				B9E65ED2B1E495FCC11F36E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealEstate;
+			productName = RealEstate;
+			productReference = 8683653C1DC83DBD008BB5D8 /* RealEstate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8683654F1DC83DBD008BB5D8 /* RealEstateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8683655C1DC83DBD008BB5D8 /* Build configuration list for PBXNativeTarget "RealEstateTests" */;
+			buildPhases = (
+				F9053C36C14110BCFAC9E567 /* [CP] Check Pods Manifest.lock */,
+				8683654C1DC83DBD008BB5D8 /* Sources */,
+				8683654D1DC83DBD008BB5D8 /* Frameworks */,
+				8683654E1DC83DBD008BB5D8 /* Resources */,
+				7057AD2E07369BBBB422F789 /* [CP] Embed Pods Frameworks */,
+				7AC1DA6FBAFA93789E4D1822 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868365521DC83DBD008BB5D8 /* PBXTargetDependency */,
+			);
+			name = RealEstateTests;
+			productName = RealEstateTests;
+			productReference = 868365501DC83DBD008BB5D8 /* RealEstateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868365341DC83DBC008BB5D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MyLabSolutions;
+				TargetAttributes = {
+					8683653B1DC83DBD008BB5D8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8683654F1DC83DBD008BB5D8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8683653B1DC83DBD008BB5D8;
+					};
+				};
+			};
+			buildConfigurationList = 868365371DC83DBC008BB5D8 /* Build configuration list for PBXProject "RealEstate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 868365331DC83DBC008BB5D8;
+			productRefGroup = 8683653D1DC83DBD008BB5D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8683653B1DC83DBD008BB5D8 /* RealEstate */,
+				8683654F1DC83DBD008BB5D8 /* RealEstateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8683653A1DC83DBD008BB5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8683654A1DC83DBD008BB5D8 /* LaunchScreen.storyboard in Resources */,
+				868365711DC880A5008BB5D8 /* RealEstateCell.xib in Resources */,
+				868365751DC8D24C008BB5D8 /* Media.xcassets in Resources */,
+				868365451DC83DBD008BB5D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8683654E1DC83DBD008BB5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868365721DC880A5008BB5D8 /* RealEstateCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F8B1F5EBCE76EDD71044A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealEstate/Pods-RealEstate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7057AD2E07369BBBB422F789 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealEstateTests/Pods-RealEstateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC1DA6FBAFA93789E4D1822 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealEstateTests/Pods-RealEstateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E65ED2B1E495FCC11F36E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealEstate/Pods-RealEstate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8674BDD0D81D37BDA7A9F35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9053C36C14110BCFAC9E567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868365381DC83DBD008BB5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868365771DC8FD1D008BB5D8 /* RealEstateViewModel.swift in Sources */,
+				8683656B1DC86535008BB5D8 /* RealEstateModel.swift in Sources */,
+				865D79671DCDF742007C47C2 /* RealEstateViewModelHelper.swift in Sources */,
+				8683656F1DC880A5008BB5D8 /* RealEstateCell.swift in Sources */,
+				868365401DC83DBD008BB5D8 /* AppDelegate.swift in Sources */,
+				865D79641DCDE2E2007C47C2 /* RealEstateService.swift in Sources */,
+				868365681DC86471008BB5D8 /* RealEstateTableViewController.swift in Sources */,
+				8683657C1DC90C9A008BB5D8 /* ResponseParser.swift in Sources */,
+				86B1E8221DCD7776000AB79F /* RealEstateMapViewController.swift in Sources */,
+				865D79601DCDBF4F007C47C2 /* FavoritesManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8683654C1DC83DBD008BB5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868365781DC8FD1D008BB5D8 /* RealEstateViewModel.swift in Sources */,
+				8683656C1DC86535008BB5D8 /* RealEstateModel.swift in Sources */,
+				865D79681DCDF742007C47C2 /* RealEstateViewModelHelper.swift in Sources */,
+				868365701DC880A5008BB5D8 /* RealEstateCell.swift in Sources */,
+				865D79651DCDE2E2007C47C2 /* RealEstateService.swift in Sources */,
+				86B84E6F1DD096FB00B05445 /* FavoriteManagerTest.swift in Sources */,
+				868365691DC86471008BB5D8 /* RealEstateTableViewController.swift in Sources */,
+				8683657D1DC90C9A008BB5D8 /* ResponseParser.swift in Sources */,
+				86B84E6C1DCED8D900B05445 /* RealEstateViewModelHelperTest.swift in Sources */,
+				86B1E8231DCD7776000AB79F /* RealEstateMapViewController.swift in Sources */,
+				865D79611DCDBF4F007C47C2 /* FavoritesManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		868365521DC83DBD008BB5D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8683653B1DC83DBD008BB5D8 /* RealEstate */;
+			targetProxy = 868365511DC83DBD008BB5D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		868365431DC83DBD008BB5D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868365441DC83DBD008BB5D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		868365481DC83DBD008BB5D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868365491DC83DBD008BB5D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		868365571DC83DBD008BB5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		868365581DC83DBD008BB5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8683655A1DC83DBD008BB5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A7F6704589D9CF14C652AB /* Pods-RealEstate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealEstate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mylabsolutions.realestate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8683655B1DC83DBD008BB5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EC379B5B2083BDD249A7C6 /* Pods-RealEstate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealEstate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mylabsolutions.realestate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8683655D1DC83DBD008BB5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B58EB8B01EDFDD0393C951E /* Pods-RealEstateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealEstateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mylabsolutions.RealEstateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealEstate.app/RealEstate";
+			};
+			name = Debug;
+		};
+		8683655E1DC83DBD008BB5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A01173ED0A5BEBAE178E5AA /* Pods-RealEstateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealEstateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mylabsolutions.RealEstateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealEstate.app/RealEstate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		868365371DC83DBC008BB5D8 /* Build configuration list for PBXProject "RealEstate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868365571DC83DBD008BB5D8 /* Debug */,
+				868365581DC83DBD008BB5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868365591DC83DBD008BB5D8 /* Build configuration list for PBXNativeTarget "RealEstate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8683655A1DC83DBD008BB5D8 /* Debug */,
+				8683655B1DC83DBD008BB5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8683655C1DC83DBD008BB5D8 /* Build configuration list for PBXNativeTarget "RealEstateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8683655D1DC83DBD008BB5D8 /* Debug */,
+				8683655E1DC83DBD008BB5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 868365341DC83DBC008BB5D8 /* Project object */;
+}
